@@ -1,0 +1,25 @@
+img {
+    width: 20vw;
+    border: 15px antiquewhite solid;
+    margin: 2vw;
+}
+body{
+    margin:0;
+    background-color:burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4 {
+    background-color:antiquewhite;
+}
+h1 {
+    font-size: 100px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    margin-top: 0;
+}
+p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
