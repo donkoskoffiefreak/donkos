@@ -1,7 +1,7 @@
-img {
+.fillerimg {
     width: 20vw;
     border: 15px antiquewhite solid;
-    margin: 2vw;
+    margin: 1vw;
 }
 body{
     margin:0;
@@ -22,4 +22,9 @@ h1 {
 p {
     margin-left: 10vw;
     margin-right: 10vw;
+}
+#proof {
+    border: 15px antiquewhite solid;
+    margin: 1vw;
+    width: 50vw;
 }
