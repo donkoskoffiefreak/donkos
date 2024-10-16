@@ -19,5 +19,17 @@ function changeText(id){
     }
 }
 function changeImg(id){
-    document.getElementById(id).src="img/hq720.jpg";
+    function changeimage(){
+        var witch = 0;
+        if (witch == 0){
+            document.getElementById(id).src="img/hq720.jpg";
+            witch = 1;
+        } if (witch == 1){
+            document.getElementById(id).src="img/Louis.png";
+            witch = 0;
+        }
+    }
+    for (var i = 0; i < 5; i++){
+        setTimeout(changeimage, 1000*i);
+    }
 }
