@@ -28,3 +28,11 @@ p {
     margin: 1vw;
     width: 50vw;
 }
+#linc {
+    background-color:antiquewhite;
+}
+.satan{
+    height: 50vh;
+    border: 15px antiquewhite solid;
+    margin: 2vw;
+}
